@@ -1,0 +1,72 @@
+*{
+    text-transform: capitalize;
+    margin: 5px;
+}
+body{
+    padding: 0;
+    color: wheat;
+    background-color: #333; 
+        width: 80%;
+        margin: auto;
+}
+.head{
+    text-align: center;
+}
+
+input , .search input {
+    background-color: black;
+    border: none;
+    color: rgb(255, 247, 231);
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+input::placeholder ,.search input::placeholder{
+    color: #4e4d4d;
+}
+
+small{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+small, .price , .taxes ,.ads , .discount{
+    display: inline;
+    margin: 0;
+    width: 22%;
+}
+button{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.search{
+    display: flex;
+}
+.searchInput{
+    display: none;
+}
+.btn{
+    width: 50%;
+}
+small::before{
+    content: "Total:";
+}
+
+
+.showProducts table tr th{
+    padding: 21px;
+    text-transform: uppercase;
+}
+.showProducts table tr td{
+    padding: 21px;
+
+} 
+
+button:hover{
+    background-color: #333;
+}
